@@ -16,7 +16,7 @@ This guide assumes you are familiar with the MbedCE build system, if not, please
 2. Into Command line type
     - `git clone --recursive https://github.com/mbed-ce-libraries-examples/Custom_Bluepill.git HerePlaceMyProjectName`
     - and for MbedOS update to latest type `cd HerePlaceMyProjectName && git submodule update --remote mbed-os` 
-4. On the last line of cmake-variants.yaml file set your [upload method](https://github.com/mbed-ce/mbed-os/wiki/Upload-Methods). Default is NONE = it generates just .bin file. Optimal for external loaders like DFU method and so on (I personaly prefer [STM32CUBE](https://github.com/mbed-ce/mbed-os/wiki/Upload-Methods#stm32cube)). 
+4. On the last line of *cmake-variants.yaml* file set your [upload method](https://github.com/mbed-ce/mbed-os/wiki/Upload-Methods). Default is NONE = it generates just .bin file. Optimal for external loaders like DFU method and so on (I personaly prefer [STM32CUBE](https://github.com/mbed-ce/mbed-os/wiki/Upload-Methods#stm32cube)). 
 5. Build the project
 
 ## Notes
